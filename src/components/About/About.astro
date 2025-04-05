@@ -1,0 +1,26 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="/img/photo.png"
+			alt="Foto de perfil da Vanessa da S. Santos"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="Sobre mim" />
+			<p class="about__text">
+				Sou uma desenvolvedora front-end apaixonada por tecnologia, com uma jornada que começou em 2022. Ao longo dos anos, desenvolvi sólidas habilidades na área, sempre focada em criar soluções inovadoras para o desenvolvimento mobile e web. Estou constantemente buscando aprimorar minhas habilidades e contribuir com projetos que proporcionem experiências excepcionais aos usuários.
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>

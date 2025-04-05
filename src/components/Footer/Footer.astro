@@ -1,0 +1,40 @@
+---
+import Logo from '../Logo.astro';
+import SocialIcons from '../SocialIcons.astro';
+import './Footer.css';
+---
+
+<footer>
+	<div class="footer__container">
+		<Logo name="Vanessa da S. Santos" />
+		<SocialIcons width="23" height="23" />
+	</div>
+
+	<aside class="footer__links">
+		<ul>
+			<li>
+				<a class="footer__link" href="mailto:vanessadasilvasantos65@gmail.com"
+					><span
+						><iconify-icon
+							icon="fluent:mail-28-regular"
+							width="27"
+							height="27"
+							style="color: #E1B3A5"></iconify-icon></span
+					>vanessadasilvasantos65@gmail.com</a>
+			</li>
+			<li>
+				<a class="footer__link"
+                href="https://github.com/vanessadasilvasantos"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+					><span
+						><iconify-icon
+							icon="mdi:github"
+							width="27"
+							height="27"
+							style="color: #E1B3A5"></iconify-icon></span
+					>@vanessadasilvasantos</a>
+			</li>
+		</ul>
+	</aside>
+</footer>
